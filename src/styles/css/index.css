@@ -1,0 +1,8 @@
+@import './reset.css';
+@import './variables.css';
+@import './fonts.css';
+
+body {
+  font-family: 'ClearSans', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  background: var(--light-grey);
+}

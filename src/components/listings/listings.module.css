@@ -1,0 +1,7 @@
+.listings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  gap: 20px;
+  padding: var(--space16);
+}

@@ -1,0 +1,48 @@
+{
+  "name": "skeleton",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:server": "json-server --watch ./data/db.json --port 3004",
+    "dev:all": "npm-run-all --parallel dev dev:server",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ignore-path .gitignore src/**/*.js",
+    "prettier": "prettier --ignore-path .gitignore \"src/**/*.+(js|json)\" \"config/**/*.+(js|json)\"",
+    "format": "yarn prettier -- --write",
+    "format:check": "yarn prettier -- --check",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@apollo/client": "^3.3.7",
+    "apollo-server-micro": "^2.19.2",
+    "axios": "^0.21.1",
+    "graphql": "^15.5.0",
+    "lodash": "^4.17.20",
+    "moment": "^2.29.1",
+    "next": "10.0.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-rating-stars-component": "^2.2.0",
+    "react-svg-inline": "^2.1.1"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.11.9",
+    "@testing-library/react": "^11.2.5",
+    "babel-jest": "^26.6.3",
+    "eslint": "^7.19.0",
+    "eslint-config-prettier": "^7.2.0",
+    "eslint-plugin-jest": "^24.1.3",
+    "eslint-plugin-jest-dom": "^3.6.5",
+    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-testing-library": "^3.10.1",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^26.6.3",
+    "jest-environment-jsdom": "^26.6.2",
+    "json-server": "^0.16.3",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.2.1",
+    "raw-loader": "^4.0.2"
+  }
+}

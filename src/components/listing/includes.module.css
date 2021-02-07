@@ -1,0 +1,19 @@
+.includes {
+  padding: 0 var(--space16) var(--space5);
+}
+
+.includes__text {
+  font-style: italic;
+  margin-bottom: var(--space10);
+}
+
+.includes__item {
+  display: inline-flex;
+  align-items: center;
+  width: 100%;
+  padding: var(--space10) 0;
+}
+
+.includes__item__text {
+  margin-left: var(--space8);
+}

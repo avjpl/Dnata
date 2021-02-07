@@ -1,0 +1,23 @@
+.listing {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 100%;
+  width: 100%;
+  color: var(--dark-grey);
+}
+
+@media only screen and (min-width: 52em) {
+  .listing {
+    max-width: calc((100% / 2) - 14px);
+  }
+}
+
+@media only screen and (min-width: 77em) {
+  .listing {
+    max-width: calc((100% / 3) - 14px);
+  }
+}
+
+.listing__content {
+  border: 1px solid var(--light-grey);
+}

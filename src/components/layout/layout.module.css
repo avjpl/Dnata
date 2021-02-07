@@ -1,0 +1,5 @@
+.layout {
+  margin: 0 auto;
+  max-width: var(--max-width-xl);
+  background: var(--white);
+}

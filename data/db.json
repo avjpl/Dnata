@@ -1,0 +1,68 @@
+{
+  "listings": [
+    {
+      "image": "https://placeimg.com/580/300/arch",
+      "name": "Grand Hyatt Dubai",
+      "description": "Bur Dubai Area, Dubai",
+      "ratings": 4.5,
+      "reviews": {
+        "count": 32,
+        "percent": 9.3
+      },
+      "includes": {
+        "food": "Room Only",
+        "charges": "Local charges Payable at hotel"
+      },
+      "amount": 816,
+      "amountPerPerson": 408
+    },
+    {
+      "image": "https://placeimg.com/580/300/arch",
+      "name": "Grand Hyatt Dubai",
+      "description": "Bur Dubai Area, Dubai",
+      "ratings": 5,
+      "reviews": {
+        "count": 32,
+        "percent": 9.3
+      },
+      "includes": {
+        "food": "Room Only",
+        "charges": "Local charges Payable at hotel"
+      },
+      "amount": 976,
+      "amountPerPerson": 488
+    },
+    {
+      "image": "https://placeimg.com/580/300/arch",
+      "name": "Grand Hyatt Dubai",
+      "description": "Bur Dubai Area, Dubai",
+      "ratings": 3,
+      "reviews": {
+        "count": 32,
+        "percent": 9.3
+      },
+      "includes": {
+        "food": "Room Only",
+        "charges": "Local charges Payable at hotel"
+      },
+      "amount": 650,
+      "amountPerPerson": 325
+    },
+    {
+      "image": "https://placeimg.com/580/300/arch",
+      "name": "Grand Hyatt Dubai",
+      "description": "Bur Dubai Area, Dubai",
+      "ratings": 3,
+      "reviews": {
+        "count": 32,
+        "percent": 9.3
+      },
+      "includes": {
+        "food": "Room Only",
+        "charges": "Local charges Payable at hotel"
+      },
+      "amount": 650,
+      "amountPerPerson": 325
+    }
+  ]
+}

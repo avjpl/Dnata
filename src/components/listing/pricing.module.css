@@ -1,0 +1,33 @@
+.pricing {
+  display: flex;
+  flex: 1 1;
+  justify-content: space-between;
+  background: var(--whitesmoke);
+  color: var(--dark-grey);
+  border-top: 2px dashed var(--light-grey);
+  padding: var(--space20) var(--space16);
+  margin-top: var(--space10);
+}
+
+.pricing__link {
+  background: var(--orange);
+  color: var(--white);
+  text-decoration: none;
+  padding: var(--space20) var(--space24);
+  font-size: var(--font-size-l);
+}
+
+.pricing__link:hover {
+  background: var(--dirty-orange);
+}
+
+.pricing__info {
+  display: flex;
+  flex-direction: column;
+}
+
+.pricing__amount {
+  font-size: var(--font-size-l);
+  color: var(--orange);
+  font-weight: var(--font-weight-600);
+}
